@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[
-# ${1:Algorithms in MapReduce}
+  <content>
+# Algorithms in MapReduce
 In this assignment, you will be designing and implementing MapReduce algorithms for a variety of common data processing tasks.  
 
 The MapReduce programming model (and a corresponding system) was proposed in a 2004 paper from a team at Google as a simpler abstraction for processing very large datasets in parallel.  The goal of this assignment is to give you experience “thinking in MapReduce.”  We will be using small datasets that you can inspect directly to determine the correctness of your results and to internalize how MapReduce works.  In the next assignment, you will have the opportunity to use a MapReduce-based system to process the very large datasets for which is was designed. 
@@ -144,11 +144,12 @@ Reduce Output
 
 The output from the reduce function will also be matrix row records formatted as tuples. Each tuple will have the format (i, j, value) where each element is an integer.
 
-You can test your solution to this problem using matrix.json:
+You can test your solution to this pro
+blem using matrix.json:
 
         python multiply.py matrix.json
 
 You can verify your solution against multiply.json.
-]]></content>
-  <tabTrigger>readme</tabTrigger>
+</content>
+  <tabTrigger></tabTrigger>
 </snippet>
